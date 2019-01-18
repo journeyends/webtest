@@ -1,0 +1,12 @@
+[ERROR]   [2018-10-27 Sat, AM 11:04:16,483] log_helper.py [line:404]: 'NoneType' object has no attribute 'res_id'
+[ERROR]   [2018-10-27 Sat, AM 11:04:16,487] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-27 Sat, AM 11:07:32,756] log_helper.py [line:404]: 'Request' object has no attribute 'current_user_id'
+[ERROR]   [2018-10-27 Sat, AM 11:07:32,757] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-27 Sat, AM 11:26:08,937] log_helper.py [line:404]: 'str' object has no attribute 'execute'
+[ERROR]   [2018-10-27 Sat, AM 11:26:08,941] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-27 Sat, AM 11:27:14,958] log_helper.py [line:404]: 'str' object has no attribute 'execute'
+[ERROR]   [2018-10-27 Sat, AM 11:27:14,962] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-27 Sat, AM 11:36:00,355] log_helper.py [line:404]: 'dict' object has no attribute 'ResID'
+[ERROR]   [2018-10-27 Sat, AM 11:36:00,359] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-27 Sat, AM 11:36:49,671] log_helper.py [line:404]: 'dict' object has no attribute 'ResID'
+[ERROR]   [2018-10-27 Sat, AM 11:36:49,674] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/

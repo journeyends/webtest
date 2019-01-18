@@ -1,0 +1,6 @@
+[ERROR]   [2018-10-31 Wed, PM 13:41:42,500] log_helper.py [line:404]: substring not found
+[ERROR]   [2018-10-31 Wed, PM 13:41:42,501] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-31 Wed, PM 17:53:04,691] log_helper.py [line:404]: 'list' object has no attribute 'org_id'
+[ERROR]   [2018-10-31 Wed, PM 17:53:04,692] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-31 Wed, PM 18:03:24,297] log_helper.py [line:404]: name 'false' is not defined
+[ERROR]   [2018-10-31 Wed, PM 18:03:24,298] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/

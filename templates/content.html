@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="app">
+        {% verbatim %}
+        {{ content }}
+        {% endverbatim %}
+        <textarea id="editor_id" name="content" style="width:700px;height:300px;" v-model="content">
+        </textarea>
+
+
+      <span v-html="message"></span>
+
+        <button type="button"  v-on:click="postFormData()">
+                       aa
+                    </button>
+    </div>
+
+    <script src="/static/jquery/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/static/vue/vue-resource.min.js" ></script>
+    <script charset="utf-8" src="/static/kindeditor/kindeditor-all-min.js"></script>
+    <script charset="utf-8" src="/static/kindeditor/zh-CN.js"></script>
+    <script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!',
+                content: '&lt;strong&gt;HTML内容&lt;/strong&gt;<p>\n' +
+                    '\t<strong><span style="background-color:#E53333;">aa</span></strong>\n' +
+                    '</p>'
+            },
+            methods:{
+                postFormData(){
+                    {#debugger#}
+                    {#let content = editor.html();#}
+                    {#editor.sync();#}
+                    {#content = $('#editor_id').val();#}
+                    {##}
+                    {#this.$http.post("http://127.0.0.1:8000/cms/api/content",#}
+                    {#    {#}
+                    {#        'id':{{ id }},#}
+                    {#        'content': content#}
+                    {#    },#}
+                    {#    { emulateJSON: true })#}
+                    {#    .then(#}
+                    {#      function (response) {#}
+                    {##}
+                    {#      }#}
+                    {#  );#}
+
+
+                    for(let i=0;i<=100;i++) {
+                        this.$http.get("http://localhost:8090/api/ProjectPanorama/ProjectSummaryApi/GetBidWin?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50IjoiemhvdWNoZW4xIiwiam9iQ29kZSI6IkoyNTEwMTk4IiwidXNlcklEIjoyMDUwMywibmJmIjoxNTYxNjgyODk2LCJpc3N1ZSI6ImdvbGRNYW50aXMiLCJleHAiOjE1NDYwNDg4MDB9.ZFmYowj_aW3hepnTnURcM8vOe9cDMmhI5-oT86_4dbo",
+                            {emulateJSON: true})
+                            .then(
+                                function (response) {
+                                    console.log(response.body)
+                                }
+                            );
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[ERROR]   [2018-11-01 Thu, AM 09:59:02,894] log_helper.py [line:404]: name 'false' is not defined
+[ERROR]   [2018-11-01 Thu, AM 09:59:02,895] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 09:59:38,623] log_helper.py [line:404]: name 'false' is not defined
+[ERROR]   [2018-11-01 Thu, AM 09:59:38,623] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:01:54,058] log_helper.py [line:404]: name 'false' is not defined
+[ERROR]   [2018-11-01 Thu, AM 10:01:54,059] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:02:27,292] log_helper.py [line:404]: name 'null' is not defined
+[ERROR]   [2018-11-01 Thu, AM 10:02:27,293] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:20:27,394] log_helper.py [line:404]: name 'null' is not defined
+[ERROR]   [2018-11-01 Thu, AM 10:20:27,395] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:20:57,738] log_helper.py [line:404]: name 'null' is not defined
+[ERROR]   [2018-11-01 Thu, AM 10:20:57,739] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:21:20,879] log_helper.py [line:404]: dictionary update sequence element #0 has length 1; 2 is required
+[ERROR]   [2018-11-01 Thu, AM 10:21:20,880] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:27:04,766] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:27:04,768] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:27:08,882] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:27:08,883] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:27:31,087] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:27:31,089] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:27:34,411] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:27:34,413] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:28:20,043] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:28:20,045] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:28:43,121] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:28:43,122] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:28:49,843] log_helper.py [line:404]: 'bytes' object has no attribute 'strFormat'
+[ERROR]   [2018-11-01 Thu, AM 10:28:49,845] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:30:01,908] log_helper.py [line:404]: 'str' object has no attribute 'decode'
+[ERROR]   [2018-11-01 Thu, AM 10:30:01,909] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:52:12,434] log_helper.py [line:404]: 'dict' object has no attribute '_meta'
+[ERROR]   [2018-11-01 Thu, AM 10:52:12,438] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 10:59:39,983] log_helper.py [line:404]: 'dict' object has no attribute '_meta'
+[ERROR]   [2018-11-01 Thu, AM 10:59:39,984] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 11:02:20,015] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute '__bases__'
+[ERROR]   [2018-11-01 Thu, AM 11:02:20,018] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 11:09:29,849] log_helper.py [line:404]: 'dict' object has no attribute '_meta'
+[ERROR]   [2018-11-01 Thu, AM 11:09:29,853] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 11:09:50,963] log_helper.py [line:404]: 'dict' object has no attribute '_meta'
+[ERROR]   [2018-11-01 Thu, AM 11:09:50,966] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-11-01 Thu, AM 11:33:44,873] log_helper.py [line:404]: name 'obj' is not defined
+[ERROR]   [2018-11-01 Thu, AM 11:33:44,875] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/

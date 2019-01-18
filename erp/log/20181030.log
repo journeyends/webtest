@@ -1,0 +1,22 @@
+[ERROR]   [2018-10-30 Tue, PM 18:13:20,807] log_helper.py [line:404]: type object 'I_sys_org_dal' has no attribute 'instance'
+[ERROR]   [2018-10-30 Tue, PM 18:13:20,811] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:14:24,010] log_helper.py [line:404]: type object 'I_sys_org_dal' has no attribute 'instance'
+[ERROR]   [2018-10-30 Tue, PM 18:14:24,014] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:15:40,698] log_helper.py [line:404]: 'list' object has no attribute 'pre_id'
+[ERROR]   [2018-10-30 Tue, PM 18:15:40,699] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:15:58,537] log_helper.py [line:404]: name 'Sys_org_dal' is not defined
+[ERROR]   [2018-10-30 Tue, PM 18:15:58,539] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:17:45,301] log_helper.py [line:404]: name 'erp' is not defined
+[ERROR]   [2018-10-30 Tue, PM 18:17:45,303] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:19:51,504] log_helper.py [line:404]: name 'Sys_org_dal' is not defined
+[ERROR]   [2018-10-30 Tue, PM 18:19:51,506] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:27:02,356] log_helper.py [line:404]: module 'erp' has no attribute 'Sys_org_dal'
+[ERROR]   [2018-10-30 Tue, PM 18:27:02,359] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:28:34,636] log_helper.py [line:404]: name 'Sys_org_dal' is not defined
+[ERROR]   [2018-10-30 Tue, PM 18:28:34,640] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:29:21,229] log_helper.py [line:404]: name 'Sys_org_dal' is not defined
+[ERROR]   [2018-10-30 Tue, PM 18:29:21,233] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:29:34,801] log_helper.py [line:404]: 'list' object has no attribute 'pre_id'
+[ERROR]   [2018-10-30 Tue, PM 18:29:34,802] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-30 Tue, PM 18:29:55,645] log_helper.py [line:404]: 'list' object has no attribute 'pre_id'
+[ERROR]   [2018-10-30 Tue, PM 18:29:55,648] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/

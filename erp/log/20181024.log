@@ -1,0 +1,88 @@
+[ERROR]   [2018-10-24 Wed, AM 11:31:36,033] log_helper.py [line:404]: Object of type SalesInfoPre is not JSON serializable
+[ERROR]   [2018-10-24 Wed, AM 11:31:36,035] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, AM 11:32:06,970] log_helper.py [line:404]: Object of type SalesInfoPre is not JSON serializable
+[ERROR]   [2018-10-24 Wed, AM 11:32:06,974] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, AM 11:33:49,981] log_helper.py [line:404]: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[ERROR]   [2018-10-24 Wed, AM 11:33:49,982] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, AM 11:36:05,333] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute 'values'
+[ERROR]   [2018-10-24 Wed, AM 11:36:05,337] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, AM 11:37:56,843] log_helper.py [line:404]: 'SalesInfoPre' object is not iterable
+[ERROR]   [2018-10-24 Wed, AM 11:37:56,844] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, PM 13:35:27,077] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute 'toJson'
+[ERROR]   [2018-10-24 Wed, PM 13:35:27,078] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, PM 13:36:05,969] log_helper.py [line:404]: Object of type datetime is not JSON serializable
+[ERROR]   [2018-10-24 Wed, PM 13:36:05,970] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, PM 13:41:30,493] log_helper.py [line:404]: name 'DateEncoder' is not defined
+[ERROR]   [2018-10-24 Wed, PM 13:41:30,494] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, PM 13:47:54,880] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute 'toJson'
+[ERROR]   [2018-10-24 Wed, PM 13:47:54,882] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, PM 13:48:30,833] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute 'toJson'
+[ERROR]   [2018-10-24 Wed, PM 13:48:30,835] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/getById/
+[ERROR]   [2018-10-24 Wed, PM 15:03:13,502] log_helper.py [line:404]: expected string or bytes-like object
+[ERROR]   [2018-10-24 Wed, PM 15:03:13,503] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:05:40,910] log_helper.py [line:404]: (1048, "Column 'customer_id' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:05:40,912] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:05:52,258] log_helper.py [line:404]: (1048, "Column 'area_id' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:05:52,261] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:05,130] log_helper.py [line:404]: (1048, "Column 'status' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:06:05,133] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:14,100] log_helper.py [line:404]: (1048, "Column 'is_del' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:06:14,103] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:22,603] log_helper.py [line:404]: (1048, "Column 'is_post' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:06:22,605] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:33,186] log_helper.py [line:404]: (1048, "Column 'check_status' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:06:33,189] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:42,869] log_helper.py [line:404]: (1048, "Column 'create_user_id' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:06:42,872] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:51,629] log_helper.py [line:404]: (1048, "Column 'create_date' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:06:51,632] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:06:58,693] log_helper.py [line:404]: expected string or bytes-like object
+[ERROR]   [2018-10-24 Wed, PM 15:06:58,696] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:07:42,854] log_helper.py [line:404]: (1048, "Column 'is_warn' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 15:07:42,857] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:48:49,763] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute 'id'
+[ERROR]   [2018-10-24 Wed, PM 15:48:49,764] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 15:52:03,921] log_helper.py [line:404]: 'SalesInfoPre' object has no attribute 'id'
+[ERROR]   [2018-10-24 Wed, PM 15:52:03,922] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 16:25:43,156] log_helper.py [line:404]: You cannot access body after reading from request's data stream
+[ERROR]   [2018-10-24 Wed, PM 16:25:43,159] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 16:36:31,487] log_helper.py [line:404]: 'aa'
+[ERROR]   [2018-10-24 Wed, PM 16:36:31,489] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 16:46:17,600] log_helper.py [line:404]: name 'attachment_list' is not defined
+[ERROR]   [2018-10-24 Wed, PM 16:46:17,603] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:12:16,915] log_helper.py [line:404]: bindJsonData() missing 1 required positional argument: 'objTypeName'
+[ERROR]   [2018-10-24 Wed, PM 17:12:16,919] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:12:57,170] log_helper.py [line:404]: unsupported operand type(s) for |: 'NoneType' and 'str'
+[ERROR]   [2018-10-24 Wed, PM 17:12:57,171] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:13:31,845] log_helper.py [line:404]: unsupported operand type(s) for |: 'NoneType' and 'str'
+[ERROR]   [2018-10-24 Wed, PM 17:13:31,846] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:16:42,010] log_helper.py [line:404]: type object 'SalesInfoPre' has no attribute 'fields'
+[ERROR]   [2018-10-24 Wed, PM 17:16:42,012] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:23:25,953] log_helper.py [line:404]: (1048, "Column 'customer_id' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:23:25,956] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:23:51,800] log_helper.py [line:404]: (1048, "Column 'customer_key_name' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:23:51,803] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:24:32,795] log_helper.py [line:404]: (1048, "Column 'area_id' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:24:32,797] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:24:36,384] log_helper.py [line:404]: (1048, "Column 'area_id' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:24:36,386] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:24:50,786] log_helper.py [line:404]: (1048, "Column 'status' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:24:50,788] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:24:52,958] log_helper.py [line:404]: (1048, "Column 'status' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:24:52,960] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:25:04,325] log_helper.py [line:404]: (1048, "Column 'is_del' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:25:04,328] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:25:29,808] log_helper.py [line:404]: (1048, "Column 'is_post' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:25:29,811] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:25:46,257] log_helper.py [line:404]: (1048, "Column 'check_status' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:25:46,260] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:25:55,317] log_helper.py [line:404]: (1048, "Column 'check_status' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:25:55,319] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:26:07,301] log_helper.py [line:404]: (1048, "Column 'is_warn' cannot be null")
+[ERROR]   [2018-10-24 Wed, PM 17:26:07,304] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:34:09,065] log_helper.py [line:404]: unsupported operand type(s) for &: 'bool' and 'Request'
+[ERROR]   [2018-10-24 Wed, PM 17:34:09,067] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:36:35,688] log_helper.py [line:404]: 'Request' object has no attribute 'current_user_id'
+[ERROR]   [2018-10-24 Wed, PM 17:36:35,690] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/
+[ERROR]   [2018-10-24 Wed, PM 17:37:12,360] log_helper.py [line:404]: 'Request' object has no attribute 'current_user_id'
+[ERROR]   [2018-10-24 Wed, PM 17:37:12,364] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/

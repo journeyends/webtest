@@ -1,0 +1,2 @@
+[ERROR]   [2018-10-26 Fri, AM 11:44:44,433] log_helper.py [line:404]: (1146, "Table 'gmerp.erp_sysres' doesn't exist")
+[ERROR]   [2018-10-26 Fri, AM 11:44:44,435] log.py [line:228]: Internal Server Error: /erp/salesInfoPre/save/

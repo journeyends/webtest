@@ -1,0 +1,27 @@
+[INFO]    [2018-10-23 Tue, AM 11:15:07,281] logger.py [line:401]: info°×aaa
+[INFO]    [2018-10-23 Tue, AM 11:17:29,747] logger.py [line:403]: info°×aaab
+[INFO]    [2018-10-23 Tue, PM 15:58:21,667] log_helper.py [line:402]: test
+[ERROR]   [2018-10-23 Tue, PM 15:59:01,203] exceptionFilter.py [line:7]: invalid literal for int() with base 10: '33dd'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\PycharmProjects\webtest\erp\controller\contact_unit_controller.py", line 14, in get
+    int("33dd")
+ValueError: invalid literal for int() with base 10: '33dd'
+[ERROR]   [2018-10-23 Tue, PM 15:59:01,285] log.py [line:228]: Internal Server Error: /erp/contactUnitApi/
+[ERROR]   [2018-10-23 Tue, PM 16:03:41,443] exceptionFilter.py [line:7]: invalid literal for int() with base 10: '33dd'
+[ERROR]   [2018-10-23 Tue, PM 16:03:41,444] log.py [line:228]: Internal Server Error: /erp/contactUnitApi/
+[ERROR]   [2018-10-23 Tue, PM 16:25:30,621] log_helper.py [line:404]: invalid literal for int() with base 10: 'ddd'
+[ERROR]   [2018-10-23 Tue, PM 16:25:30,621] log.py [line:228]: Internal Server Error: /erp/contactUnitApi/
+[ERROR]   [2018-10-23 Tue, PM 16:26:29,877] log_helper.py [line:404]: invalid literal for int() with base 10: 'ddd'
+[ERROR]   [2018-10-23 Tue, PM 16:26:41,688] log.py [line:228]: Internal Server Error: /erp/contactUnitApi/
