@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="app">
+        {% verbatim %}
+        {{ content }}
+        {% endverbatim %}
+        <textarea id="editor_id" name="content" style="width:700px;height:300px;"
+                  v-model="content">
+        </textarea>
+
+
+      <span v-html="message"></span>
+
+        <button type="button"  v-on:click="postFormData()">
+                       aa
+                    </button>
+    </div>
+
+    <script src="/static/jquery/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/static/vue/vue-resource.min.js" ></script>
+    <script charset="utf-8" src="/static/kindeditor/kindeditor-all-min.js"></script>
+    <script charset="utf-8" src="/static/kindeditor/zh-CN.js"></script>
+    <script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!',
+                content: '&lt;strong&gt;HTML内容&lt;/strong&gt;<p>\n' +
+                    '\t<strong><span style="background-color:#E53333;">aa</span></strong>\n' +
+                    '</p>'
+            },
+             created: function() {
+                this.postFormData();
+            },
+            methods:{
+                postFormData(){
+                    this.$http.get("http://"+window.location.host+"/cms/api/content/first?id=" + {{ id }},
+                    {emulateJSON: true})
+                    .then(
+                        function (response) {
+                            this.$set(this, 'categoryList', response.data == undefined ? {} : eval(response.data));
+                        }
+                    );
+                },
+                postFormData(){
+                    debugger
+                    let content = editor.html();
+                    editor.sync();
+                    content = $('#editor_id').val();
+
+                    this.$http.post("http://"+window.location.host+"/cms/api/content",
+                        {
+                            'id':{{ id }},
+                            'content': content
+                        },
+                        { emulateJSON: true })
+                        .then(
+                          function (response) {
+
+                          }
+                      );
+                }
+            }
+        })
+    </script>
+</body>
+</html>
