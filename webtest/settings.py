@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # 'erp.filter.basicAuthenticationFilter.BasicAuthenticationFilter',
-    # 'erp.filter.exceptionFilter.ExceptionFilter',
+    'erp.filter.exceptionFilter.ExceptionFilter',
     # 'filter.basicAuthenticationFilter.BasicAuthenticationFilter',
     # 'filter.exceptionFilter.ExceptionFilter',
 ]

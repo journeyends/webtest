@@ -19,3 +19,10 @@ class SiteBiz:
     def getByPath(self, path):
         dal = SiteBiz.dal
         return dal.getByPath(path)
+
+    def getByUrl(self, url):
+        if url.find('/cms') == 0:
+            path = url[4:]
+        else:
+            return None
+        return self.getByPath(path)

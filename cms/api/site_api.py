@@ -18,6 +18,15 @@ class CMSGetSiteApi(APIView):
         pass
 
 
+class CMSSiteApi(APIView):
+    def get(self, request):
+        sitePath = request.GET.get("sitePath")
+        if sitePath is not None:
+            siteModel = ISiteBiz()().getByUrl(sitePath)
+            result = modelToJson(siteModel)
+        return HttpResponse(result)
+
+
 class CMSListSiteApi(APIView):
     def get(self, request):
         obj = ISiteBiz()().getList()
