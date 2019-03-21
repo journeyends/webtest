@@ -1,0 +1,58 @@
+[ERROR]   [2019-01-25 Fri, AM 10:57:30,519] log_helper.py [line:404]: 'function' object has no attribute 'as_view'
+[ERROR]   [2019-01-25 Fri, AM 10:57:30,522] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 10:57:54,616] log_helper.py [line:404]: 'function' object has no attribute 'as_view'
+[ERROR]   [2019-01-25 Fri, AM 10:57:54,619] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 10:58:24,856] log_helper.py [line:404]: 'function' object has no attribute 'as_view'
+[ERROR]   [2019-01-25 Fri, AM 10:58:24,860] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:05:42,725] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:05:42,728] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:06:18,536] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:06:18,538] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:06:50,716] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:06:50,718] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:07:39,598] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:07:39,601] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:08:42,767] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:08:42,770] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:09:28,842] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:09:28,845] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:31:32,095] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:31:32,096] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, AM 11:33:06,947] log_helper.py [line:404]: 'dict' object has no attribute 'path'
+[ERROR]   [2019-01-25 Fri, AM 11:33:06,948] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:29:08,724] log_helper.py [line:404]: 'SiteBiz' object has no attribute 'getChannelByUrl'
+[ERROR]   [2019-01-25 Fri, PM 15:29:08,726] log.py [line:228]: Internal Server Error: /cms/api/channel
+[ERROR]   [2019-01-25 Fri, PM 15:41:01,298] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:41:01,306] log.py [line:228]: Internal Server Error: /cms/api/site
+[ERROR]   [2019-01-25 Fri, PM 15:41:16,884] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:41:16,886] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:42:16,215] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:42:16,218] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:02,888] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:02,890] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:08,180] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:08,182] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:20,384] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:20,387] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:20,987] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:20,990] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:22,524] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:22,527] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:39,305] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:39,308] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:43:57,906] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:43:57,908] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:45:48,934] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:45:48,936] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:45:49,955] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:45:49,956] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:46:20,775] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:46:20,777] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:46:21,362] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:46:21,364] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:46:40,873] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:46:40,877] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:47:16,558] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:47:16,562] log.py [line:228]: Internal Server Error: /cms/api/channel/list
+[ERROR]   [2019-01-25 Fri, PM 15:47:46,376] log_helper.py [line:404]: local variable 'result' referenced before assignment
+[ERROR]   [2019-01-25 Fri, PM 15:47:46,379] log.py [line:228]: Internal Server Error: /cms/api/channel/list
